@@ -1,0 +1,23 @@
+{
+  "name": "flav0r",
+  "version": "1.0.0",
+  "description": "a WIN10 elegant Launcher",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ./",
+    "package": "electron-packager ./ --platform=win32 --icon=./app.ico --out=./app --arch=ia32 --overwrite"
+  },
+  "repository": "https://github.com/html50/flav0r",
+  "keywords": [
+    "Electron",
+    "flav0r"
+  ],
+  "author": "HTML50",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^7.1.7"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.5"
+  }
+}
