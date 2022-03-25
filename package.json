@@ -15,7 +15,7 @@
   "author": "HTML50",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^7.1.7"
+    "electron": "^13.6.6"
   },
   "dependencies": {
     "auto-launch": "^5.0.5"
